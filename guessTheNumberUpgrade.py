@@ -86,8 +86,8 @@ def playGame( showAnswer ):
     orange = int(input()) 
     print('how many guesses would you like?')
     totalGuesses = int(input())
-    theNumber = generateNumber(apple)
-    print( 'The remaining guess you have is ' + str(totalGuesses)+ ' to guess between 1 and ' + str(apple))
+    theNumber = generateNumber(orange)
+    print( 'The remaining guess you have is ' + str(totalGuesses)+ ' to guess between 1 and ' + str(orange))
     
 
     # TO DO: ####################################################
